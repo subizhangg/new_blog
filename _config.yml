@@ -1,9 +1,9 @@
 # Site wide configuration
 
-title: Site Title
+title: Subiii
 locale: en_US
-description: Describe your website here.
-logo: site-logo.png
+description: A self-explorer. Observe this world from the view of data science, music and food.
+logo:
 search: true
 url: http://localhost:4000
 
@@ -36,16 +36,16 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
+  name: Subi
+  avatar: https://avatars0.githubusercontent.com/u/23744173?v=3&u=dec1a9cfba253c8264091c1d06a22c1096cec8d0&s=400
   email: you@email.com
   disqus-shortname:
   twitter: #username
   facebook: #username
-  github: #username
+  github: subizhangg
   stackexchange: #http://stackoverflow.com/users/123456/username
   linkedin: #username
-  instagram: #username
+  instagram: subidubiiiii
   flickr: #username
   tumblr: #username
   pinterest: #username
