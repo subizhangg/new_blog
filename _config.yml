@@ -5,7 +5,7 @@ locale: en_US
 description: A self-explorer observes this world from the view of data science, music and food.
 logo:
 search: true
-url: http://subizhangg.github.io
+url: https://subizhangg.github.io
 
 # Jekyll configuration
 
