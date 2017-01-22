@@ -4,10 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Hey, the guy who happened to find this secret corner :)
-I'm Subi and currently a graduate student at UBC MDS program learning data science.
+Hey, the guy who happens to find this secret corner. Glad to meet you here :)
 
-This is a place where I will keep recording my experience to explore more amazing serendipities around the world.
+I'm Subi Zhang from Beijing, China. Currently I am a graduate student of University of British Columbia learning data science.
+
+I enjoy singing, cooking, reading and watching shows in my life.
+
+"Serendipity" is my favorite English word. It means the occurrence and development of events by chance in a happy or beneficial way based on Oxford Dictionary's definition. I believe data science is such a powerful detector that may help me explore more serendipity within my spiritual life. And I wish I could keep recording and sharing my thinking in this quiet nook. 
 
 ### Contact me
 
