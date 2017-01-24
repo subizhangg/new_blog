@@ -310,7 +310,7 @@ album_data %>%
 ## 1977	 The Stranger	                Billy Joel
 ## 1970	 Close to You	                Carpenters
 ## 1967	 Something Else by The Kinks	The Kinks
-## 1979	 The Wall	                  Pink Floyd
+## 1979	 The Wall	                Pink Floyd
 {% endhighlight %}
 
 
@@ -333,4 +333,4 @@ album_data %>%
 
 3. Introduce potential influence factors analysis of abrupt changes within specific music courses. Related contemporary music history materials should be included to enrich the report's depth.
 
-4. Add case study targeting one specific genre & subgenre, or decade. For instance, A Rock'n'roll big events time-line summarization would be nice to supplement much music industrial background.   
+4. Add case study targeting one specific genre & subgenre, or decade. For instance, A rock and roll big events time-line summarization would be nice to supplement much music industrial background.   
