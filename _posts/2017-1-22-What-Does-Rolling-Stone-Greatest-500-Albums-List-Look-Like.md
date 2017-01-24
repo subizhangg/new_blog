@@ -8,8 +8,6 @@ categories: blog
 tags: [visualization]
 ---
 
-## Part 0. Motivation and Outline
-
 **Motivation**
 
 Listening to album alone has always been my biggest pleasure. As one of the most influential music brand and magazine, Rolling Stone once published a list in 2012 of the Greatest 500 Albums of all time based on opinions from music industrial figures. I hope to discover more insights about music development trend as well as characteristics by visualizing this dataset. In addition, I also want to briefly explore my personal taste within the 500 albums.
@@ -18,8 +16,6 @@ Listening to album alone has always been my biggest pleasure. As one of the most
 
 
 **Outline**
-
-- Part 0: Motivation and Outline
 
 - Part 1: Data source and Collection
 
