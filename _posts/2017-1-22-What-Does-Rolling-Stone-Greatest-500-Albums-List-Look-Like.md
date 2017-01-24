@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What Does Rolling Stone Greatest 500 Albums ? Look Like ?"
+title: "What Does Rolling Stone Greatest 500 Albums List Look Like?"
 date: 2017-01-22
 output: html_document
 share: true
