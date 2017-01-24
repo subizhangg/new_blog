@@ -5,7 +5,6 @@ image:
   feature: about.jpg
 ---
 
-Hey, the guy who happens to find this secret corner .
 
 I'm Subi Zhang from Beijing, China. Currently I am a graduate student of University of British Columbia learning data science. I enjoy cooking, reading, singing and watching shows in my life.
 

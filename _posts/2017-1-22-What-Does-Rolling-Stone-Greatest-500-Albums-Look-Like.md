@@ -34,16 +34,16 @@ Listening to album alone has always been my biggest pleasure. As one of the most
 
 - Part 4: Visualization of My Own Music Taste
 
-- part 5: Limitation and Further Polish Need to Be Done Later
+- Part 5: Limitation and Further Polish Need to Be Done Later
 
 
 
 ## Part 1. Where Does My Data Come From ?
 
 
-My dataset is a csv file , which comes from public kaggle online database [kaggle 500 albums dataset](https://www.kaggle.com/notgibs/500-greatest-albums-of-all-time-rolling-stone). However, I want to point out that the dataset is a second-hand dataset after cooking. It was created by Gibs, a graduate student at University of Texas at Austin.
+My dataset is a csv file , which comes from public Kaggle online database [kaggle 500 albums dataset](https://www.kaggle.com/notgibs/500-greatest-albums-of-all-time-rolling-stone). However, I want to point out that the dataset is a second-hand dataset after cooking. It was created by Gibs, a graduate student at University of Texas at Austin.
 
-- The observations within variables "Albumn", "Year" and "Artist" were collected from [MusicBrainz](https://musicbrainz.org/series/8668518f-4a1e-4802-8b0d-81703ced6418).
+- The observations within variables "Album", "Year" and "Artist" were collected from [MusicBrainz](https://musicbrainz.org/series/8668518f-4a1e-4802-8b0d-81703ced6418).
 
 - The observations within variables "Genre" and "Subgenre" were collected from [Discogs API](https://www.discogs.com/developers/#).
 
@@ -112,7 +112,7 @@ album_data %>%
 ![center](/images/rollingstone_500_albums/unnamed-chunk-4-1.png)
 
 
-"Rock" nearly took 60 percent seats and 300 rock albums appeared in Rolling Stone list. But the results are not astonishing to me for two reasons: the list was voted by many rock musicians; Rolling Stone itselt is a rock music brand . "Soul" as one of the root genre in contemporary music was placed in the 2nd ranking with 60 albums being included. Although both "Techno" and "Hip-Hop" were new fresh waves born in 70s and 80s,they were third and fourth respectively. An intersting point is that "Pop" music's performance was much lower than I expected and only 10 albums were chosen on the list. In fact, tons of great pop stars have been very active on music circle in the past few years. One possible explaination might be evaluation standard of rock musicians and industry figures is very different from the public mainstream preference.
+"Rock" nearly took 60 percent seats and 300 rock albums appeared in Rolling Stone list. But the results are not astonishing to me for two reasons: the list was voted by many rock musicians; Rolling Stone itself is a rock music brand . "Soul" as one of the root genre in contemporary music was placed in the 2nd ranking with 60 albums being included. Although both "Techno" and "Hip-Hop" were new fresh waves born in 70s and 80s,they were third and fourth respectively. An interesting point is that "Pop" music's performance was much lower than I expected and only 10 albums were chosen on the list. In fact, tons of great pop stars have been very active on music circle in the past few years. One possible explanation might be evaluation standard of rock musicians and industry figures is very different from the public mainstream preference.
 
 
 #### (2) Was there a popular genre dominated in the industry in each decade?
@@ -144,11 +144,11 @@ During 50's, only three genres (rock, jazz and blue) were lively in the list. Th
 
 #### **70's: Rock Music Heyday**
 
-The most conspicuous purple cell within the heatmap is 70's rock music. Over a hundred (20 percent) 70's rock albums were selected in this list. Countless rock stars swept over among Europe and North America in seventies, such as Led Zeppelin, David Bowie, Pink Floyd , Queen and The Sex Pistols.  
+The most conspicuous purple cell within the heat map is 70's rock music. Over a hundred (20 percent) 70's rock albums were selected in this list. Countless rock stars swept over among Europe and North America in seventies, such as Led Zeppelin, David Bowie, Pink Floyd , Queen and The Sex Pistols.  
 
 #### **80's: Jazz began to fade, Hip-Hop began to grow**
 
-Eighties was a divide period witinessed the growth of Hip-Hop and the fading of Jazz. It's a very interesting phenomenon deserves further and deeper study.
+Eighties was a divide period witnessed the growth of Hip-Hop and the fading of Jazz. It's a very interesting phenomenon deserves further and deeper study.
 
 #### **21st-century: New dominating pattern of Rock and Hip-Hop**
 
@@ -294,7 +294,7 @@ decade_preference %>%
 
 ![center](/images/rollingstone_500_albums/unnamed-chunk-11-1.png)
 
-In terms of music taste, I am indeed a nostalgic person. Even now I still often enjoy listening to 60's and 70's albums. Most my favorite artists came from sixties and seventies, such as The kinks, Miles Davis, Carpenters, Billy Joel, The Beach Boys, Pink Floyd and Marvin Gaye. Sometimes I wish I could cross back to 50 years ago, and spend one night in a dark but wonderful underground livehouse, listening to my favourite idol's songs.
+In terms of music taste, I am indeed a nostalgic person. Even now I still often enjoy listening to 60's and 70's albums. Most my favorite artists came from sixties and seventies, such as The kinks, Miles Davis, Carpenters, Billy Joel, The Beach Boys, Pink Floyd and Marvin Gaye. Sometimes I wish I could cross back to 50 years ago, and spend one night in a dark and wonderful underground livehouse, listening to my favorite idol's songs.
 
 {% highlight r %}
 # list part of my favorite albums
@@ -304,17 +304,17 @@ album_data %>%
 {% endhighlight %}
 
 {% highlight text %}
-## Year  Album                        Artist
-## 1966	 Pet Sounds	                  The Beach Boys
-## 1959	 Kind of Blue	                Miles Davis		
-## 1973	 Innervisions	                Stevie Wonder
-## 1973	 The Dark Side of the Moon	  Pink Floyd
-## 1965	 A Love Supreme	              John Coltrane
-## 1978	 Here, My Dear	              Marvin Gaye
-## 1977	 The Stranger	                Billy Joel
-## 1970	 Close to You	                Carpenters
-## 1967	 Something Else by The Kinks	The Kinks
-## 1979	 The Wall	                    Pink Floyd
+## Year  Album                          Artist
+## 1966	 Pet Sounds	                    The Beach Boys
+## 1959	 Kind of Blue	                  Miles Davis		
+## 1973	 Inner visions	                Stevie Wonder
+## 1973	 The Dark Side of the Moon	    Pink Floyd
+## 1965	 A Love Supreme	                John Coltrane
+## 1978	 Here, My Dear	                Marvin Gaye
+## 1977	 The Stranger	                  Billy Joel
+## 1970	 Close to You	                  Carpenters
+## 1967	 Something Else by The Kinks	  The Kinks
+## 1979	 The Wall	                      Pink Floyd
 {% endhighlight %}
 
 
@@ -324,9 +324,9 @@ album_data %>%
 
 (1) **Genre and subgenre classification might not be accurate.** Firstly, it's very common that one album is a fusion mixed various genres. For instance, it's hard to classify whether Acid Jazz belongs to Jazz or Techno. Secondly, the classification mechanics of Discog is unknown. Discog is a user-built database, so the genre labels are probably created by different users. The consistence of genre and subgenre naming could be an issue here.
 
-(2) Only little information about each albumn was collected.
+(2) Only little information about each album was collected.
 
-(3) The visulizations are mostly at general introductive level.
+(3) The visualizations are mostly at general introductive level.
 
 
 #### Further Polishment
