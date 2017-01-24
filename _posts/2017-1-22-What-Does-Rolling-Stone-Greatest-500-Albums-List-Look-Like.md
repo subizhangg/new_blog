@@ -93,7 +93,7 @@ The golden era of the most greatest albums were generally between 1965 to 1980, 
 
 ### 2. Genre
 
-####  What were the most awesome genres in the past 60 years ?
+#### - What were the most awesome genres in the past 60 years ?
 
 {% highlight r %}
 album_data %>%
@@ -111,7 +111,7 @@ album_data %>%
 "Rock" nearly took 60 percent seats and 300 rock albums appeared in Rolling Stone list. But the results are not astonishing to me for two reasons: the list was voted by many rock musicians; Rolling Stone itself is a rock music brand . "Soul" as one of the root genre in contemporary music was placed in the 2nd ranking with 60 albums being included. Although both "Techno" and "Hip-Hop" were new fresh waves born in 70s and 80s,they were third and fourth respectively. An interesting point is that "Pop" music's performance was much lower than I expected and only 10 albums were chosen on the list. In fact, tons of great pop stars have been very active on music circle in the past few years. One possible explanation might be evaluation standard of rock musicians and industry figures is very different from the public mainstream preference.
 
 
-#### Was there a popular genre dominated in the industry in each decade?
+#### - Was there a popular genre dominated in the industry in each decade?
 
 {% highlight r %}
 # covert each specific year into decade scale
@@ -152,7 +152,7 @@ After entering 21st century, the taste of industry figures becomes more single a
 
 ### 3. Artist
 
-#### Who were the most influential artists in the past 60 years?
+#### - Who were the most influential artists in the past 60 years?
 
 {% highlight r %}
 
@@ -178,9 +178,9 @@ artist_top30 %>%
 ![center](/images/rollingstone_500_albums/unnamed-chunk-6-1.png)
 
 
-####  Who were the most remarkable artists in specific genre?
+#### - Who were the most remarkable artists in specific genre?
 
-##### - **Jazz**
+##### **Jazz**
 
 {% highlight r %}
 artist_jazz <- album_data %>%
@@ -204,7 +204,7 @@ ggplot(artist_jazz, aes(x=reorder(Artist,-count), y=count)) +
 ![center](/images/rollingstone_500_albums/unnamed-chunk-7-1.png)
 
 
-##### - **Soul**
+##### **Soul**
 
 {% highlight r %}
 artist_soul <- album_data %>%
@@ -228,7 +228,7 @@ ggplot(artist_soul, aes(x=reorder(Artist,-count), y=count)) +
 ![center](/images/rollingstone_500_albums/unnamed-chunk-8-1.png)
 
 
-##### - **Rock**
+##### **Rock**
 
 {% highlight r %}
 artist_rock <- album_data %>%
@@ -310,7 +310,7 @@ album_data %>%
 ## 1977	 The Stranger	                Billy Joel
 ## 1970	 Close to You	                Carpenters
 ## 1967	 Something Else by The Kinks	The Kinks
-## 1979	 The Wall	                    Pink Floyd
+## 1979	 The Wall	                  Pink Floyd
 {% endhighlight %}
 
 
@@ -333,4 +333,4 @@ album_data %>%
 
 3. Introduce potential influence factors analysis of abrupt changes within specific music courses. Related contemporary music history materials should be included to enrich the report's depth.
 
-(4) Add case study targeting one specific genre & subgenre, or decade. For instance, A Rock'n'roll big events time-line summarization would be nice to supplement much music industrial background.   
+4. Add case study targeting one specific genre & subgenre, or decade. For instance, A Rock'n'roll big events time-line summarization would be nice to supplement much music industrial background.   
