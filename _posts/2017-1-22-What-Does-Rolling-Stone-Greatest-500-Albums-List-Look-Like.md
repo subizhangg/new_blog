@@ -93,7 +93,7 @@ The golden era of the most greatest albums were generally between 1965 to 1980, 
 
 ### 2. Genre
 
-#### (1) What were the most awesome genres in the past 60 years ?
+####  What were the most awesome genres in the past 60 years ?
 
 {% highlight r %}
 album_data %>%
@@ -111,7 +111,7 @@ album_data %>%
 "Rock" nearly took 60 percent seats and 300 rock albums appeared in Rolling Stone list. But the results are not astonishing to me for two reasons: the list was voted by many rock musicians; Rolling Stone itself is a rock music brand . "Soul" as one of the root genre in contemporary music was placed in the 2nd ranking with 60 albums being included. Although both "Techno" and "Hip-Hop" were new fresh waves born in 70s and 80s,they were third and fourth respectively. An interesting point is that "Pop" music's performance was much lower than I expected and only 10 albums were chosen on the list. In fact, tons of great pop stars have been very active on music circle in the past few years. One possible explanation might be evaluation standard of rock musicians and industry figures is very different from the public mainstream preference.
 
 
-#### (2) Was there a popular genre dominated in the industry in each decade?
+#### Was there a popular genre dominated in the industry in each decade?
 
 {% highlight r %}
 # covert each specific year into decade scale
@@ -134,25 +134,25 @@ ggplot(data = decade_genre , aes(x = decade, y = Genre)) +
 ![center](/images/rollingstone_500_albums/unnamed-chunk-5-1.png)
 
 
-#### **60's: A prosperous decade of diverse genres co-existence**
+##### **60's: A prosperous decade of diverse genres co-existence**
 
 During 50's, only three genres (rock, jazz and blue) were lively in the list. Then a bunch of genres suddenly sprouted in 70s, such as techno, soul, folk and Country. The popularity of soul became a main feature in that age.
 
-#### **70's: Rock Music Heyday**
+##### **70's: Rock Music Heyday**
 
 The most conspicuous purple cell within the heat map is 70's rock music. Over a hundred (20 percent) 70's rock albums were selected in this list. Countless rock stars swept over among Europe and North America in seventies, such as Led Zeppelin, David Bowie, Pink Floyd , Queen and The Sex Pistols.  
 
-#### **80's: Jazz began to fade, Hip-Hop began to grow**
+##### **80's: Jazz began to fade, Hip-Hop began to grow**
 
 Eighties was a divide period witnessed the growth of Hip-Hop and the fading of Jazz. It's a very interesting phenomenon deserves further and deeper study.
 
-#### **21st-century: New dominating pattern of Rock and Hip-Hop**
+##### **21st-century: New dominating pattern of Rock and Hip-Hop**
 
 After entering 21st century, the taste of industry figures becomes more single and steady. Rock and Hip-Hop have been the most popular genres in music industry.
 
 ### 3. Artist
 
-#### (1) Who were the most influential artists in the past 60 years?
+#### Who were the most influential artists in the past 60 years?
 
 {% highlight r %}
 
@@ -178,7 +178,7 @@ artist_top30 %>%
 ![center](/images/rollingstone_500_albums/unnamed-chunk-6-1.png)
 
 
-#### (2) Who were the most remarkable artists in specific genre?
+####  Who were the most remarkable artists in specific genre?
 
 ##### - **Jazz**
 
@@ -301,16 +301,16 @@ album_data %>%
 
 {% highlight text %}
 ## Year  Album                          Artist
-## 1966	 Pet Sounds	                    The Beach Boys
-## 1959	 Kind of Blue	                  Miles Davis		
+## 1966	 Pet Sounds	                The Beach Boys
+## 1959	 Kind of Blue	                Miles Davis		
 ## 1973	 Inner visions	                Stevie Wonder
-## 1973	 The Dark Side of the Moon	    Pink Floyd
+## 1973	 The Dark Side of the Moon	Pink Floyd
 ## 1965	 A Love Supreme	                John Coltrane
 ## 1978	 Here, My Dear	                Marvin Gaye
-## 1977	 The Stranger	                  Billy Joel
-## 1970	 Close to You	                  Carpenters
-## 1967	 Something Else by The Kinks	  The Kinks
-## 1979	 The Wall	                      Pink Floyd
+## 1977	 The Stranger	                Billy Joel
+## 1970	 Close to You	                Carpenters
+## 1967	 Something Else by The Kinks	The Kinks
+## 1979	 The Wall	                    Pink Floyd
 {% endhighlight %}
 
 
@@ -318,19 +318,19 @@ album_data %>%
 
 #### Limitation
 
-(1) **Genre and subgenre classification might not be accurate.** Firstly, it's very common that one album is a fusion mixed various genres. For instance, it's hard to classify whether Acid Jazz belongs to Jazz or Techno. Secondly, the classification mechanics of Discog is unknown. Discog is a user-built database, so the genre labels are probably created by different users. The consistence of genre and subgenre naming could be an issue here.
+1. **Genre and subgenre classification might not be accurate.** Firstly, it's very common that one album is a fusion mixed various genres. For instance, it's hard to classify whether Acid Jazz belongs to Jazz or Techno. Secondly, the classification mechanics of Discog is unknown. Discog is a user-built database, so the genre labels are probably created by different users. The consistence of genre and subgenre naming could be an issue here.
 
-(2) Only little information about each album was collected.
+2. Only little information about each album was collected.
 
-(3) The visualizations are mostly at general introductive level.
+3. The visualizations are mostly at general introductive level.
 
 
 #### Further Polishment
 
-(1) Collect more dimensional data of each album to go deeper about music development trend, such as artist nationality, circulation volumes, award history, rating, republication times, music brand. It could be a tough work to collect these trivial snippets from different places, but it's worthwhile to do that.
+1. Collect more dimensional data of each album to go deeper about music development trend, such as artist nationality, circulation volumes, award history, rating, republication times, music brand. It could be a tough work to collect these trivial snippets from different places, but it's worthwhile to do that.
 
-(2) Introduce statistical regression analysis and hypothesis testing between variables to quantize this topic.
+2. Introduce statistical regression analysis and hypothesis testing between variables to quantize this topic.
 
-(3) Introduce potential influence factors analysis of abrupt changes within specific music courses. Related contemporary music history materials should be included to enrich the report's depth.
+3. Introduce potential influence factors analysis of abrupt changes within specific music courses. Related contemporary music history materials should be included to enrich the report's depth.
 
 (4) Add case study targeting one specific genre & subgenre, or decade. For instance, A Rock'n'roll big events time-line summarization would be nice to supplement much music industrial background.   
