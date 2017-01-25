@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What Does Rolling Stone Greatest 500 Albums List Look Like?"
+title: "What Does Rolling Stone's Greatest 500 Albums List Look Like?"
 date: 2017-01-22
 output: html_document
 share: true
@@ -10,7 +10,8 @@ tags: [visualization]
 
 **Motivation**
 
-Listening to album alone has always been my biggest pleasure. As one of the most influential music brand and magazine, Rolling Stone once published a list in 2012 of the Greatest 500 Albums of all time based on opinions from music industrial figures. I hope to discover more insights about music development trend as well as characteristics by visualizing this dataset. In addition, I also want to briefly explore my personal taste within the 500 albums.
+Listening to album alone has always been my biggest pleasure. As one of the most influential magazine focusing on popular culture, Rolling Stone once published a list in 2012 based on opinions from 100 artists, producers, industry executives and journalists to vote the greatest 500 albums of all time. I hope to visualize the music tastes within these industrial figures, which could be one kind of voice reflecting the development of contemporary music in North America and Europe. In addition, I would also briefly explore my own preference within the 500 albums.
+
 
 [Rolling Stone's 500 Greatest Albums of All Time - wikipedia](https://en.wikipedia.org/wiki/Rolling_Stone%27s_500_Greatest_Albums_of_All_Time)
 
@@ -88,7 +89,7 @@ album_data %>%
 
 ![center](/images/rollingstone_500_albums/unnamed-chunk-3-1.png)
 
-The golden era of the most greatest albums were generally between 1965 to 1980, when a large amount of wonderful artists started to jump onto the stage. The most renowned 1969 Woodstock Music Festival was also held in this period.
+The golden era were generally between 1965 to 1980, when a large amount of wonderful artists started to jump onto the stage. The most renowned 1969 Woodstock Music Festival was also held in this period.
 
 
 ### 2. Genre
@@ -108,7 +109,7 @@ album_data %>%
 ![center](/images/rollingstone_500_albums/unnamed-chunk-4-1.png)
 
 
-"Rock" nearly took 60 percent seats and 300 rock albums appeared in Rolling Stone list. But the results are not astonishing to me for two reasons: the list was voted by many rock musicians; Rolling Stone itself is a rock music brand . "Soul" as one of the root genre in contemporary music was placed in the 2nd ranking with 60 albums being included. Although both "Techno" and "Hip-Hop" were new fresh waves born in 70s and 80s,they were third and fourth respectively. An interesting point is that "Pop" music's performance was much lower than I expected and only 10 albums were chosen on the list. In fact, tons of great pop stars have been very active on music circle in the past few years. One possible explanation might be evaluation standard of rock musicians and industry figures is very different from the public mainstream preference.
+"Rock" nearly took 60 percent seats and 300 rock albums appeared in Rolling Stone list. But the results seems not astonishing since the list was voted by many rock musicians. "Soul" as one of the root genre in contemporary music was placed in the 2nd ranking with 60 albums being included. Although both "Techno" and "Hip-Hop" were new fresh waves born in 70s and 80s,they were third and fourth respectively. An interesting point is that "Pop" music's performance was much lower than I expected and only 10 albums were chosen on the list. A large amount of great pop stars have been very active on music circle in the past few years, such as Michael Jackson, George Michael or Madonna. However, after checking these artists' observations, their albums were actually classified as rock or techno. The accurate definition of pop seems a little bit vague.
 
 
 #### - Was there a popular genre dominated in the industry in each decade?
@@ -136,7 +137,7 @@ ggplot(data = decade_genre , aes(x = decade, y = Genre)) +
 
 ##### **60's: A prosperous decade of diverse genres co-existence**
 
-During 50's, only three genres (rock, jazz and blue) were lively in the list. Then a bunch of genres suddenly sprouted in 70s, such as techno, soul, folk and Country. The popularity of soul became a main feature in that age.
+During 50's, only three genres (rock, jazz and blue) were lively in the list. Then a bunch of genres suddenly sprouted in 70s, such as techno, soul, folk and country. The popularity of soul became a main feature in that age.
 
 ##### **70's: Rock Music Heyday**
 
@@ -148,7 +149,7 @@ Eighties was a divide period witnessed the growth of Hip-Hop and the fading of J
 
 ##### **21st-century: New dominating pattern of Rock and Hip-Hop**
 
-After entering 21st century, the taste of industry figures becomes more single and steady. Rock and Hip-Hop have been the most popular genres in music industry.
+After entering 21st century, the taste of industrial figures becomes more single and steady. Rock and Hip-Hop have been the most popular genres in music industry.
 
 ### 3. Artist
 
@@ -290,7 +291,7 @@ decade_preference %>%
 
 ![center](/images/rollingstone_500_albums/unnamed-chunk-11-1.png)
 
-In terms of music taste, I am indeed a nostalgic person. Even now I still often enjoy listening to 60's and 70's albums. Most my favorite artists came from sixties and seventies, such as The kinks, Miles Davis, Carpenters, Billy Joel, The Beach Boys, Pink Floyd and Marvin Gaye. Sometimes I wish I could cross back to 50 years ago, and spend one night in a dark and wonderful underground livehouse, listening to my favorite idol's songs.
+In terms of music taste, I am indeed a nostalgic person. Even now I still often enjoy listening to 60's and 70's albums. Most my favorite artists came from sixties and seventies, such as The kinks, Miles Davis, Carpenters, Billy Joel, The Beach Boys, Pink Floyd and Marvin Gaye. Sometimes I wish I could cross back to 50 years ago, and spend one night there in a dark underground livehouse, watching to my favorite idol's live performance.
 
 {% highlight r %}
 # list part of my favorite albums
